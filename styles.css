@@ -1,0 +1,85 @@
+/* Element Selector */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height:1.6;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    box-shadow: 0 4px 10px rgba(102, 91, 91, 0.2);
+    border: 1px solid #b2acb2;
+}
+th{
+    background-color: #d5cad29d;
+    font-family:"Noto Serif", serif;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+#header{
+    align-content: center;
+    
+}
+h2,h3{
+    text-align: center;
+    background-color: #dcd0d8;
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      }
+      
+
+p{
+    text-align: justify;
+}
+/* ID Selector */
+#header {
+    background-color: #873c6e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+   
+}
+
+/* Class Selector */
+/* About Section */
+.about{
+    
+    padding:20px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 30px;
+    text-align: center;
+}
+#contact{
+    text-align:center;
+    padding:30px;
+}
+
+#contact a{
+    color:#8a2f6c;
+}
+
+/* Footer */
+footer {
+    background-color: #504e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
